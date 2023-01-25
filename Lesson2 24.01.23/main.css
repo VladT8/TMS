@@ -1,0 +1,115 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-style: 100%;
+	line-height: 1;
+	font-style: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited {text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+
+html {
+	font-family: Raleway;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.section-title {
+	min-height: 120px;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	display: flex;
+	justify-content: center;
+	color: #000000;
+}
+.section-hr {
+	margin: 0 auto;
+	color: #EC7979;
+	width: 170px;
+	border: 1px solid #EC7979;
+	display: flex;
+	justify-content: center;
+}
+.section-subtitle {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	justify-content: center;
+	color: #86878B;
+	margin: 40px 0px 110px;
+}
+.awensome-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+/* .awensome-item {
+	display: flex;
+	flex-direction: column;
+} */
+.awensome-item__icon {
+	display: flex;
+	justify-content: center;
+}
+.awensome-item__title {
+	max-width: 370px;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	display: flex;
+	justify-content: center;
+	/* text-align: center; */
+	text-transform: capitalize;
+	color: #000000;
+	margin: 39px 0px 8px;
+}
+.awensome-item__info {
+	max-width: 370px;
+	min-height: 105px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #000000;
+}
+.box {
+	width: 400px;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: rgb(5, 138, 93);
+	padding: 30px;
+	outline: 2px solid #ffffff;
+	outline-offset: -15px;
+}

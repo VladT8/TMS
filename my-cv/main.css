@@ -38,13 +38,60 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 
 html {
 	font-family: Roboto;
-	padding: 30px;
 }
 .container {
 	max-width: 1170px;
 	margin: 0 auto;
 }
+.header {
+	height: 605px;
+	margin-top: 30px;
+}
+.header-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.header-wrapper__photo {
+	display: flex;
+}
+.header-wrapper__info {
+	margin-left: 30px;
+}
+.photo-img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
 .name {
+	font-size: 60px;
+	font-weight: 800;
+}
+.profession {
+	font-size: 25px;
+}
+.contact__name {
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 79px;
+	letter-spacing: 0.105em;
+	text-transform: uppercase;
+	color: #242732;
+}
+.contact__info {
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 46px;
+	letter-spacing: 0.05em;
+	color: #333333;
+}
+
+
+
+
+
+
+
+/* .name {
 	font-size: 32px;
 	color: blue;
 }
@@ -65,4 +112,4 @@ section {
 .contact__mail, .contact__github {
 	display: flex;
 	justify-content: start;
-}
+} */
