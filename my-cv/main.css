@@ -44,10 +44,110 @@ html {
 	margin: 0 auto;
 }
 .header {
-	height: 605px;
+	min-height: 352px;
 	margin-top: 30px;
+	padding: 60px;
+	background: rgba(228, 246, 251, 0.5);
+}
+.header-name__photo {
+	height: 150px;
+	width: 150px;
+	border: 1px solid #D9D9D9;
+	border-radius: 50%;
+}
+.header-name__info {
+	font-weight: 600;
+	font-size: 52px;
+	line-height: 34px;
+	color: #222222;
+}
+.header-name__profession {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 24px;
+	color: #1C8EB5;
+	margin-top: 25px;
+}
+.header-info {
+	width: 630px;
+	min-height: 112px;
+}
+.header-info__text {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 14px;
+	color: #222222;
+}
+.header-about__main {
+	display: flex;
+	gap: 24px;
+	align-items: center;
+}
+.header-about__submain {
+	margin-top: 30px;
+	max-width: 700px;
+}
+.header-about__text {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 30px;
+	color: #222222;
 }
 .header-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.header-contacts {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	color: #1C8EB5;
+}
+section {
+	margin-top: 40px;
+}
+.section-name {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 20px;
+	color: #1C8EB5;
+	margin-bottom: 20px;
+}
+.education-item div {
+	margin-bottom: 15px;
+}
+.education-item__years {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 20px;
+}
+.education-item__name {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 20px;
+	color: #222222;
+}
+.education-item__faculty {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 20px;
+}
+p {
+	margin-top: 10px;
+}
+.work-item__years {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 20px;
+}
+.work-item__name, .work-item__job {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 20px;
+}
+
+
+/* .header-wrapper {
 	display: flex;
 	justify-content: space-between;
 }
@@ -83,7 +183,7 @@ html {
 	line-height: 46px;
 	letter-spacing: 0.05em;
 	color: #333333;
-}
+} */
 
 
 
