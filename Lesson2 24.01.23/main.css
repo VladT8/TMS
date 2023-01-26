@@ -47,10 +47,11 @@ html {
 	min-height: 120px;
 	font-weight: 400;
 	font-size: 24px;
-	line-height: 28px;
+	line-height: 42px;
 	display: flex;
 	justify-content: center;
 	color: #000000;
+	margin: 50px 0px 0px;
 }
 .section-hr {
 	margin: 0 auto;
@@ -78,18 +79,23 @@ html {
 	flex-direction: column;
 } */
 .awensome-item__icon {
+	width: 92px;
+	height: 92px;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	border: 1px solid #EC7979;
+	margin: 0 auto;
 }
 .awensome-item__title {
-	max-width: 370px;
+	max-width: 369px;
+	min-height: 100px;
 	font-family: 'Open Sans';
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 33px;
-	display: flex;
-	justify-content: center;
-	/* text-align: center; */
+	text-align: center;
 	text-transform: capitalize;
 	color: #000000;
 	margin: 39px 0px 8px;
@@ -100,16 +106,6 @@ html {
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 21px;
-	display: flex;
-	justify-content: center;
 	text-align: center;
 	color: #000000;
-}
-.box {
-	width: 400px;
-	font-family: 'Times New Roman', Times, serif;
-	background-color: rgb(5, 138, 93);
-	padding: 30px;
-	outline: 2px solid #ffffff;
-	outline-offset: -15px;
 }

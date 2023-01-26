@@ -29,8 +29,13 @@ input, button, textarea{font-family: inherit;}
 input::-ms-clear{display:none;}
 button{cursor: pointer;}
 button::-moz-focus-inner{padding: 0;border: 0;}
-a, a:visited {text-decoration: none;}
-a:hover{text-decoration: none;}
+a.text:active,
+a.text:hover,
+a.text {
+  text-decoration: none;
+}
+/* a, a:visited {text-decoration: none;}
+a:hover{text-decoration: none;} */
 ul li{list-style-type: none;}
 img{vertical-align: top;}
 
