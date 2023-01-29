@@ -57,7 +57,7 @@ body {
 	display: flex;
 }
 .tabs__item {
-	width: 203px;
+	width: 184px;
 	height: 40px;
 	font-family: 'Open Sans';
 	font-weight: 400;
@@ -69,6 +69,7 @@ body {
 	text-transform: uppercase;
 	color: #333333;
 	cursor: pointer;
+	width: 203px;
 }
 .tabs__controls .tabs__item:nth-child(1) {
 	border-left: 1px solid #C6CBCD;
@@ -76,15 +77,12 @@ body {
 	border-right: 1px solid #C6CBCD;
 	border-radius: 4px 4px 0px 0px;
 }
-.tabs__controls .tabs__item:nth-child(2) {
+.tabs__controls .tabs__item:nth-child(n+2) {
 	border-bottom: 1px solid #C6CBCD;
 }
-.tabs__controls .tabs__item:nth-child(3) {
-	border-bottom: 1px solid #C6CBCD;
-}
+
 .tabs__item_clear {
-	width: 561px;
-	border-bottom: 1px solid #C6CBCD;
+	width: 600px;
 }
 .tabs__main {
 	width: 1170px;
