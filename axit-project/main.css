@@ -40,7 +40,6 @@ h1,h2, h3, h4, h5, h6, p{font-style: inherit; font-weight: inherit; font-size: i
 
 html {
 	font-family: Raleway;
-	
 }
 body {
 	background: #ffffff;
@@ -84,16 +83,19 @@ body {
 .tabs__item_clear {
 	width: 600px;
 }
-.tabs__main {
+.info-box {
 	width: 1170px;
 	min-height: 501px;
 	display: flex;
-}
-.tabs__box {
 	border-bottom: 1px solid #C6CBCD;
 	border-left: 1px solid #C6CBCD;
 	border-right: 1px solid #C6CBCD;
 }
+/* .tabs__box {
+	border-bottom: 1px solid #C6CBCD;
+	border-left: 1px solid #C6CBCD;
+	border-right: 1px solid #C6CBCD;
+} */
 .tabs__info {
 	max-width: 700px;
 	padding: 1px 30px 54px 100px;
@@ -125,8 +127,7 @@ body {
 	width: 470px;
 	height: 500px;
 }
-
-.button_3 {
+.button-type-tree {
 	width: 270px;
 	height: 58px;
 	background: #EC7979;
@@ -140,10 +141,10 @@ body {
 	text-transform: capitalize;
 	color: #FFFFFF;
 }
-.button_3:hover {
+.button-type-tree:hover {
 	background: #AB4949;
 }
-.button_3:active {
+.button-type-tree:active {
 	background: #EC7979;
 	box-shadow: inset 0px 0px 10px #AB4949;
 }
